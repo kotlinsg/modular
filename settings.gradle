@@ -1,0 +1,17 @@
+include ':core'
+project(':core').projectDir = new File(rootDir, 'sources/base/core')
+include ':injector'
+project(':injector').projectDir = new File(rootDir, 'sources/base/injector')
+include ':repo'
+project(':repo').projectDir = new File(rootDir, 'sources/base/repo')
+include ':network'
+project(':network').projectDir = new File(rootDir, 'sources/base/network')
+
+include ':notifications'
+project(':notifications').projectDir = new File(rootDir, 'sources/features/notifications/notifications-fake')
+
+
+include ':githubbrowser'
+project(':githubbrowser').projectDir = new File(rootDir, 'sources/features/githubbrowser')
+include ':mainscreen'
+project(':mainscreen').projectDir = new File(rootDir, 'sources/features/mainscreen')
