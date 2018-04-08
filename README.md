@@ -1,5 +1,14 @@
-# KWorkshopApp
-Our sample android app written with Kotlin
+# Sample app of modular architecture.
 
-Codelab is here:
-https://docs.google.com/document/d/1eyDgvg41ZYLMFaoY63bNdftSY07qzZUy5Kle-AafPQk
+# Gradle-modules in sample:
+
+![modules](/images/modules-overview.png)
+
+# Dagger-components in sample:
+
+![modules](/images/dagger-graph.png)
+
+
+Video from Droidcon Vietnam 2018 about this sample: will be soon...
+
+Video from Mobius Saint-Petersburg 2018 about this sample: will be soon...
