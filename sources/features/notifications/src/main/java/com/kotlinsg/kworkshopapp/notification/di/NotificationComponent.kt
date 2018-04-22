@@ -17,4 +17,14 @@ interface NotificationModule {
 @Component(
         dependencies = [MainToolsProvider::class],
         modules = [NotificationModule::class])
-interface NotificationComponent : NotificationProvider
+interface NotificationComponent : NotificationProvider{
+	class Initializer private constructor() {
+		companion object {
+
+			fun init(mainToolsProvider: MainToolsProvider): NotificationProvider =
+					DaggerNotificationComponent.builder()
+						.mainToolsProvider(mainToolsProvider)
+						.build()
+		}
+	}
+}
