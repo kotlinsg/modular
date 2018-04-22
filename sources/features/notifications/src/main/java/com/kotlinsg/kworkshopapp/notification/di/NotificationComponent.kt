@@ -1,10 +1,13 @@
 package com.kotlinsg.kworkshopapp.notification.di
 
 import com.kotlinsg.kworkshopapp.di.MainToolsProvider
-import com.kotlinsg.kworkshopapp.di.NotificaitonProvider
 import dagger.Binds
 import dagger.Component
 import dagger.Module
+
+interface NotificationProvider {
+	fun provideNotificationUseCase(): NotificationUseCase
+}
 
 @Module
 interface NotificationModule {
@@ -14,4 +17,4 @@ interface NotificationModule {
 @Component(
         dependencies = [MainToolsProvider::class],
         modules = [NotificationModule::class])
-interface NotificationComponent : NotificaitonProvider
+interface NotificationComponent : NotificationProvider
