@@ -1,8 +1,8 @@
 package com.kotlinsg.kworkshopapp
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import com.kotlinsg.kworkshopapp.actions.ShowGithubScreenAction
 import com.kotlinsg.kworkshopapp.appB.R
 import com.kotlinsg.kworkshopapp.di.Logger

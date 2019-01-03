@@ -1,9 +1,9 @@
 package com.kotlinsg.kworkshopapp.github
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.kotlinsg.kworkshopapp.App
 import com.kotlinsg.kworkshopapp.GithubProject
 import com.kotlinsg.kworkshopapp.app.R
