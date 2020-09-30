@@ -1,3 +1,4 @@
+# An Amazing Project.
 # Sample app of modular architecture.
 
 # Gradle-modules in sample:
